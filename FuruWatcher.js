@@ -3,7 +3,7 @@ const Web3 = require('web3');
 // initialise nodeJS bot
 const infuraID = 'YOUR INFURA PROJECT ID';
 web3 = new Web3(new Web3.providers.HttpProvider('https://mainnet.infura.io/v3/' + infuraID));
-const furucomboProxyContract = '0x57805e5a227937BAc2B0FdaCaA30413ddac6B8E1'.toLowerCase();
+const furucomboProxyContract = '0xA013AfbB9A92cEF49e898C87C060e6660E050569'.toLowerCase();
 
 // initialise parameters for 1inch dex aggregator
 const BigNumber = require('bignumber.js');
